@@ -2,10 +2,11 @@ import { Footer, Loader, Navbar, Services, Transactions } from "./components";
 const App = () => {
   return (
     <>
-      <Footer />
+      <Navbar />
       <Loader />
       <Services />
       <Transactions />
+      <Footer />
     </>
   );
 };
